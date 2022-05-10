@@ -1,0 +1,188 @@
+.body{
+    background-color: black;
+    height: 30vh;
+    width: 100%;
+    text-align: center;
+  }
+
+.p{
+    font-size: large;
+  }
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+  
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bg{
+  background-color: black;
+  height: 105vh;
+  width: 100%;
+}
+
+.bg1{
+  background-color: black;
+  height: 72vh;
+  width: 100%;
+}
+
+#logo{
+  height: 80%;
+  width: 20%;
+}
+
+.second{
+	background-color: black;
+	height: 100%;
+  width: 100%;
+	padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.mySlides {display: none;}
+
+#ad{
+	height: 500px;
+	width: 800px;
+	vertical-align: middle;
+	padding: 70px;
+	padding-left: 2%;
+}
+
+footer div{
+  display:table-cell;
+  float: left;
+  padding:200px;
+  padding-top: 25px;
+  padding-bottom: 0px;
+}
+
+footer .mail{
+  padding-left: 106px;
+}
+
+footer .office{
+  padding-left: 70px;
+}
+
+footer {
+  margin:0px auto;
+  padding-top: 10px;
+  margin-top: 0px;
+  background-color: rgb(36, 160, 237);
+  height: 270px;
+  text-align: left;
+  width: 100%;
+  position: static;
+}
+
+footer .about li{
+
+  list-style-type: none;
+  padding-top: 5px;
+}
+
+footer div li a{
+text-decoration: none;
+color: black;
+font-weight: 500;
+font-size: 18px;
+}
+
+footer div h3{
+  color:#cc0066;
+  font-weight: 800;
+  font-size: 24px;  
+}
+
+footer .about h3{
+  padding-left: 39px;
+} 
+
+.mail, .office{
+  font-weight: 500;
+  font-size: 18px;
+}
+  
+#indigo{
+  padding-top: 55px;
+  font-weight: 500;
+  font-size: 28px;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  word-spacing: 9px;
+  text-align: justify;
+  font-family: 'Raleway', sans-serif;
+}
+
+#found{
+  font-size: 38px;
+  color:white;
+  padding-top: 10px;
+  padding-left: 30px;
+  text-align: left;
+}
+
+#mango{
+  display: table-cell;
+}
+
+#talent{
+  border-radius: 100%; 
+  width: 250px;
+  height: 300px;
+  padding-top: 10px;
+  margin-left: 50%;
+}
+
+#lead{
+  padding-left: 230px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  font-size: 31px;
+  font-weight: 700;
+  color: white;
+  }
+  
+#noline:hover{
+  color:blue;
+}
+
+#active{
+  text-decoration:none;
+}
